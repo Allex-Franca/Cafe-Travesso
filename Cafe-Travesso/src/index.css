@@ -1,0 +1,43 @@
+:root {
+  --cor-primaria: #8B3A3A;      
+  --cor-texto: #333;             
+  --cor-titulo: #4A1F1F;         
+  --cor-texto-claro: #6B4545;    
+  --texto-sutil: #9A6B5B;        
+
+  --cor-borda: #D9B08C;           
+  --cor-borda-clara: #E8C7A8;     
+
+  --cor-fundo: #FFF3E6;
+  --cor-fundo-btn:#3F4A70 ;         
+  --cor-escura: #2B1515;           
+
+  --largura-maxima: 1100px;
+  --padding-lateral: 24px;
+  --raio-pequeno: 6px;
+  --raio-grande: 8px;
+  --raio-enorme: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  color: var(--cor-texto);
+  background-color: var(--cor-fundo);
+}
